@@ -1,0 +1,15 @@
+*{
+    margin: 0%, auto;
+    background-image: url(./assets/home/background-home-desktop.jpg);
+}
+nav{
+    width: 50%;
+    float: right;
+    background-color: hsl(231, 77, 90);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
