@@ -3,13 +3,31 @@
     background-image: url(./assets/home/background-home-desktop.jpg);
 }
 nav{
-    width: 50%;
-    float: right;
-    background-color: hsl(231, 77, 90);
+    width: 100%;
+     margin-top: 2%;
+    display: flex;
 }
+nav img{
+    width: 30px;
+    height: 35px;
+    padding-right: 50%;
+   padding-top: 20px;
+   padding-left: 20px;
 
+}
 nav ul{
+    background-color: rgb(0, 0, 0);
+    float: right;
+    width: 50%;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    padding: 20px;
+}
+.main{
+    width: 50%;
+    }
+
+.top{
+    
 }
