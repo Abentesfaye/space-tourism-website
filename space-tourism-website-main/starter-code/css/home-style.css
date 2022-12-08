@@ -1,12 +1,3 @@
-@font-face {
-    font-family:bell ;
-    src: url(../assets/font/Bellefair-Regular.ttf);
-}
-@font-face {
-    font-family: barlow;
-    src: url(../assets/font/BarlowCondensed-Regular.ttf);
-}
-
 .wrapper{
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
