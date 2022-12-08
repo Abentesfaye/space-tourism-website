@@ -84,16 +84,20 @@ color: white;
 .link button{
     float: right;
     margin-right: 25%;
-    margin-top: -10%;
-    height: 150px;
-    width: 150px;
+    margin-top: -15%;
+    height: 200px;
+    width: 200px;
     background-color: white;
     border-style: none;
-    border-radius: 75px;
+    border-radius: 100px;
    text-align: center;
    text-transform: uppercase;
    color: rgb(2, 2, 2);
    font-family: bell;
    font-size: 20px;
   
+}
+.link button:hover{
+    background-color: white;
+    opacity: 0.4;
 }
