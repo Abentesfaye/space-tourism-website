@@ -1,0 +1,94 @@
+.wrapper{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    no-repeat     center; 
+    width: 100%;
+    
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+}
+.destination{
+width: 50%;
+margin-left: 20%;
+font-size: 35px;
+font-family: barlow;
+word-spacing: 5px;
+color: white;
+}
+.destination span{
+ opacity: 0.3;
+ 
+}
+.img{
+    max-height: 100px;
+    max-width: 100px;
+}
+.img img{
+    margin-top:70%;
+    width: 400px;
+    height: 400px;
+    margin-left:250%;
+}
+.left{
+    float: right;
+    width: 50%;
+}
+.minnav{
+    margin-left: 10%;
+    margin-top: -7%;
+}
+.minnav ul{
+display: flex;
+list-style-type: none;
+}
+
+.minnav ul li{
+    padding: 15px;
+}
+.minnav ul li a{
+    text-decoration: none;
+    font-family: barlow;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: rgb(197, 193, 193);
+}
+.heading{
+    margin-left: 15%;
+    font-size: 120px;
+    font-family: barlow;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: white;
+}
+.paragraph{
+    margin-left: 15%;
+    margin-right: 30%;
+    font-family: barlow;
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+    margin-bottom: 50px;
+}
+.hr{
+    margin-left: 15%;
+    margin-right: 30%;
+      
+}
+.footer{
+    display: flex;
+    margin-left: 5%;
+}
+.footer .child{
+    padding-left: 10%;
+}
+.footer .child p{
+    font-family: bell;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.footer .child h1{
+    font-family: bell;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
