@@ -1,10 +1,10 @@
 @font-face {
     font-family:bell ;
-    src: url(./assets/font/Bellefair-Regular.ttf);
+    src: url(../assets/font/Bellefair-Regular.ttf);
 }
 @font-face {
     font-family: barlow;
-    src: url(./assets/font/BarlowCondensed-Regular.ttf);
+    src: url(../assets/font/BarlowCondensed-Regular.ttf);
 }
 
 .wrapper{
@@ -14,50 +14,10 @@
     no-repeat     center; 
     width: 100%;
     height: 100%;
-    background-image: url(./assets/home/background-home-desktop.jpg 
+    background-image: url(../assets/home/background-home-desktop.jpg 
     );
 }
-nav{
-    width: 100%;
-    padding-top: 20px; 
-    display: flex;
-}
-nav img{
-    width: 30px;
-    height: 35px;
-    padding-right: 50%;
-   padding-top: 20px;
-   padding-left: 40px;
 
-}
-nav ul{
-   background-color: #a3a5ad;
-   opacity: 0.7;
-    float: right;
-    width: 50%;
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding-right:50px;
-}nav ul li{
-padding: 25px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: barlow;
-    color: white;
-}
-nav ul li a:hover{
-    text-decoration: underline;
-    color: rgb(182, 116, 29);
-    text-transform: uppercase;
-    font-size: 22px;
-}
-nav ul li a:active{
-    color: rgb(155, 152, 152);
-    text-decoration: underline;
-}
 .main{
     width: 50%;
     margin-left: 5%;
