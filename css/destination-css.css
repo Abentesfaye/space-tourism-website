@@ -1,13 +1,12 @@
 .wrapper{
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    
     width: 100%;
-    
     background-image: url(../assets/destination/background-destination-desktop.jpg);
 }
 .destination{
 width: 50%;
+margin-top: -2%;
 margin-left: 20%;
 font-size: 35px;
 font-family: barlow;
@@ -33,7 +32,7 @@ color: white;
 }
 .minnav{
     margin-left: 10%;
-    margin-top: -15%;
+    margin-top: -7%;
 }
 .minnav ul{
 display: flex;
@@ -53,6 +52,10 @@ list-style-type: none;
     opacity: 0.6;
 }
 .minnav ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.minnav ul li a:visited{
     text-decoration: underline;
     opacity: 1;
 }
@@ -76,7 +79,6 @@ list-style-type: none;
 .hr{
     margin-left: 15%;
     margin-right: 30%;
-      
 }
 .footer{
     display: flex;
