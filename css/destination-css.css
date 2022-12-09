@@ -33,7 +33,7 @@ color: white;
 }
 .minnav{
     margin-left: 10%;
-    margin-top: -10%;
+    margin-top: -15%;
 }
 .minnav ul{
 display: flex;
@@ -65,7 +65,7 @@ list-style-type: none;
     font-family: bell;
     font-size: 20px;
     color: rgb(231, 231, 231);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .hr{
     margin-left: 15%;
