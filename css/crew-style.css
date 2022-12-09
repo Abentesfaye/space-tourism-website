@@ -1,0 +1,77 @@
+.wrapper{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+   
+}
+
+.container{
+    display: flex;
+    flex-grow: 1;
+}
+
+.crew{
+    width: 50%;
+margin-top: -2%;
+margin-left: 15%;
+font-size: 40px;
+font-family: barlow;
+word-spacing: 5px;
+color: white;
+}
+.crew span{
+    opacity: 0.3;
+}
+.position{
+    margin-top: 10%;
+    margin-left: 15%;
+    font-family: barlow;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: white;
+    opacity: 0.4;
+}
+.name{
+    margin-top: 1%;
+    margin-left: 15%;
+    font-family: barlow;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: white;
+}
+.paragraph{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 30%; 
+    font-size: 20px;
+    color: white;
+    font-family:bell;
+}
+.radio{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 11%;
+}
+.radio ul{
+    width: 100px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.radio ul li a button{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+}
+.right{
+    margin-right: 20%;
+}
+.img img{
+    width: 400px;
+    margin-top: 8%;
+    
+   
+    
+}
