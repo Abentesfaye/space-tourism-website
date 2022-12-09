@@ -1,0 +1,89 @@
+.wrapper{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    
+    no-repeat     center; 
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+}
+.space{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-family: barlow;
+    font-size: 40px;
+    color: white;
+}
+.space span{
+    opacity: 0.4;
+}
+.container{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.button{
+    flex-grow: 1;
+}
+.main{
+    flex-grow: 2;
+}
+.img{
+    flex-grow: 2;
+}
+.terminology{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 25px;
+    font-family: barlow;
+    color: whitesmoke;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.heading{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 60px;
+    font-family: barlow;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+
+}
+.paragraph{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: bell;
+    color: white;
+}
+.button ul{
+    list-style-type: none;
+}
+.button ul li{
+    margin-bottom: 50%;
+}
+.button ul li a button{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border-style: solid;
+    background:none;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    font-family: barlow;
+}
+.button ul li a button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.button ul li a button:visited{
+    background-color: white;
+    color: rgb(0, 0, 0);  
+}
+.img .imgg img{
+    width: 400px;
+}
