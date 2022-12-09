@@ -50,6 +50,11 @@ list-style-type: none;
     font-size: 20px;
     word-spacing: 5px;
     color: rgb(197, 193, 193);
+    opacity: 0.6;
+}
+.minnav ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
 }
 .heading{
     margin-top: -5%;
